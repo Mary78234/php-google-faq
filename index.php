@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <style type="text/css">
   main{
@@ -81,14 +82,19 @@
   ?>
   
   <header>
-    <div>
-      i
-      <h2>Domande frequenti</h2>
+    <div class="f-left line-height-90">
+      <i class="fas fa-bars p-right-20"></i>
+      <h2 class="d-inline-block">Domande frequenti</h2>
     </div>
 
-    <div>
-      i
-      <div>q</div>
+    <div class="f-right">
+      <div class="d-inline-block line-height-90 p-right-20">
+        <i class="fas fa-ellipsis-v"></i>
+        <i class="fas fa-ellipsis-v"></i>
+        <i class="fas fa-ellipsis-v"></i>
+      </div>
+      
+      <div class="d-inline-block circle">q</div>
     </div>
     
   </header>
@@ -107,8 +113,23 @@
   <footer>
     <div class="container">
     
-    Footer
-    
+    <div class="f-left line-height-30">
+      <ul>
+        <li>Google - </li>
+        <li>Tutto su Google - </li>
+        <li>Privacy - </li>
+        <li>Termini</li>
+      </ul>
+    </div>
+
+    <div class="f-right line-height-30">
+      <select name="" id="">
+        <option value="">xxx</option>
+        <option value="">ddd</option>
+        <option value="">sss</option>
+      </select>
+    </div>
+
     </div>
   </footer>
   

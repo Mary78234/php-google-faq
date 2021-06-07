@@ -6,9 +6,42 @@
 
 .container{
   min-width: 500px;
-  max-width: 1200px;
+  max-width: 1100px;
   margin: auto;
-  background-color: bisque;
+  /* background-color: bisque; */
+}
+
+.d-inline-block{
+  display: inline-block;
+}
+
+.f-left{
+  float: left;
+}
+.f-right{
+  float: right;
+}
+
+.p-right-20{
+  padding-right: 20px;
+}
+
+.line-height-90{
+  line-height: 90px;
+}
+
+.line-height-30{
+  line-height: 30px;
+}
+
+.circle{
+  height: 40px;
+  width: 40px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  border-radius: 50%;
+  background-color: darkgrey;
 }
 
 header{
@@ -16,13 +49,28 @@ header{
   top: 0;
   height: 90px;
   width: 100%;
-  border-bottom: 1px sold grey;
-  background-color: chocolate;
+  padding: 0 20px;
+  border-bottom: 1px solid grey;
+  /* background-color: chocolate; */
+}
+
+/* header div{
+  background-color: darkgreen;
+  line-height: 90px;
+} */
+
+header h2{
+  margin: 0;
+}
+
+header i{
+  font-size: 25px;
+  color: darkgrey;
 }
 
 main{
   margin-top: 90px;
-  background-color: cadetblue;
+  /* background-color: cadetblue; */
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -32,9 +80,17 @@ main.container{
 }
 
 footer{
-  height: 90px;
+  height: 50px;
   padding: 10px;
-  background-color: darkcyan;
+  background-color: lightgray;
+}
+
+footer ul{
+  list-style: none;
+}
+
+footer ul li{
+  display: inline-block;
 }
 
 h2{
