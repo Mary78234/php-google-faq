@@ -70,6 +70,8 @@ header i{
 
 main{
   margin-top: 90px;
+  padding-top: 40px;
+  padding-bottom: 10px;
   /* background-color: cadetblue; */
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
